@@ -5,7 +5,7 @@ namespace LinkExchange.Models
 {
     public class Link
     {
-        //public Guid Id { get; set; } //Уникальный идентификатор ссылки.
+        public Guid Id { get; set; } //Уникальный идентификатор ссылки.
         public string Url { get; set; } //URL - адрес ссылки.
         public string Description { get; set; } //Описание ссылки.
         public decimal Price { get; set; } //Цена ссылки.
