@@ -1,11 +1,21 @@
 ﻿body {
     background-color: rgb(90, 101, 189);
-    margin: 1px;
+    margin: 0px;
+    height: 100%;
 }
 header {
+    position:fixed;
     background-color: rgb(3, 16, 117);
+    height: 110PX;
+    width: 100%;
+    text-align: center;
+    align-content: center;
 }
 footer {
     background-color: rgb(3, 16, 117);
     margin: 1px;
 }
+html {
+    height: 100%;
+}
+

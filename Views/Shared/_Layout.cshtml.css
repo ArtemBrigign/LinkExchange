@@ -6,7 +6,10 @@ a.navbar-brand {
 }
 
 a {
-  color: #0077cc;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .btn-primary {
@@ -24,23 +27,48 @@ a {
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 1px white;
 }
 
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
-
 .footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
 }
+
+
+
+.page-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-panel-wrapper {
+    border-right: 1px solid #ffffff;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(157 167 255);
+}
+
+.right-panel-wrapper {
+    border-left: 1px solid #ffffff;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(157 167 255);
+}
+
+.content-wrapper {
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    padding: 0 10px;
+}
+    
