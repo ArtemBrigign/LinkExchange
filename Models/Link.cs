@@ -1,4 +1,4 @@
-﻿using LinkExchange.Models;
+﻿ using LinkExchange.Models;
 using System;
 
 namespace LinkExchange.Models
